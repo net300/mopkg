@@ -4,3 +4,5 @@ mopkg:mopkg.sh
 install:mopkg
 	cp mopkg.sh /bin/
 	cp pause /bin/
+	mkdir /etc/mopkg/
+	cp main.releases /etc/mopkg
