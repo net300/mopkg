@@ -9,6 +9,6 @@ cat /etc/$3/main.releases
 echo "Do you want to upgrade/install,if you want pass anykey"
 pause
 curl $1.com/$2/$3/blob/$4/install.sh
-./install.sh
+/tmp/mopkgdownload/install.sh
 cd ..
 rm -rf ./mopkgdownload/*
