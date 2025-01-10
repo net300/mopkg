@@ -6,7 +6,7 @@ cat main.releases
 echo "The version on your computer:\n"
 touch /etc/$3/main.releases
 cat /etc/$3/main.releases
-echo "Do you want to upgrade/install,if you want pass anykey"
+echo "Do you want to upgrade/install,if you want pass anykey,if you don't press Ctrl + c"
 pause
 curl $1.com/$2/$3/blob/$4/install.sh
 /tmp/mopkgdownload/install.sh
