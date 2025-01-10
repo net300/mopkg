@@ -3,6 +3,6 @@ mopkg:mopkg.sh
 	g++ pause.cpp -o pause
 install:mopkg
 	cp mopkg.sh /bin/
-	cp pause /bin/
+	mv pause /bin/
 	mkdir /etc/mopkg/
 	cp main.releases /etc/mopkg
