@@ -12,3 +12,4 @@
         You also need to write a main.releases for user to know the releases
     2$ for users
         You can run mopkg.sh somegitwebsite writer pkgname branch
+# This pkginstaller is only for Linux now
