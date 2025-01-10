@@ -5,8 +5,7 @@
 # What is mopkg do?
     It is a free pkg for the dev people to share their open sourses pkg.
 # How can I install?
-    First run : git clone https://github.com/net300/mopkg.git
-    Then : sudo make install 
+    git clone https://github.com/net300/mopkg.git && cd mopkg && sudo make install 
 # How can I use?
     1$ for dev share
         You need to write an install.sh for user to download and run it.
