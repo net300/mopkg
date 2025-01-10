@@ -12,4 +12,6 @@
         You also need to write a main.releases for user to know the releases
     2$ for users
         You can run mopkg.sh somegitwebsite writer pkgname branch
+# How to join
+    Email net3.0@outlook.com for more information
 # This pkginstaller is only for Linux now
